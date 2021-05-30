@@ -1,0 +1,45 @@
+html {
+    font: 62.5% 'Helvetica', sans-serif;
+}
+
+body {
+    margin: 3rem;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.svg {
+    border: 1px solid #e2e2e2;
+}  
+
+.y-steps {
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.x-steps {  
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    
+}
+
+.y-label,
+.x-label {
+    font-size: 1rem;
+    fill: #777;
+    text-transform: uppercase;
+}
+
+.error {   
+    position: absolute; 
+    top: 10vh;
+    left: 10vw;
+    font-size: 1.5rem;
+    color: #ff0000;
+}
+
+
