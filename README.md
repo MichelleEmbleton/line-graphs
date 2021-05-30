@@ -20,4 +20,7 @@ If it is the case that the x values are literal strings - the last set of data's
 Steps need to be manually adjusted to suit: <br />
 If no markers or values appear - then the steps are probably way too large and should be reduced to match what is expected. <br />
 ie. If your max y value expected is 50 - set the ySteps to 5 or 10. If 5000, try 500 etc. <br />
-If the values are so close together they are unreadable - they need to be thinned out - ie. if you have steps of 10 - try 100...
+If the values are so close together they are unreadable - they need to be thinned out - ie. if you have steps of 10 - try 100... <br />
+
+![Line Graph Example with 3 x Datasets](line-graph-3-x-datasets.png?raw=true "Line Graph Example with 3 x Datasets")
+
